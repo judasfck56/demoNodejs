@@ -1,0 +1,37 @@
+<nav class="navbar navbar-fixed-top navbar-inverse">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Framgia</a>
+          </div>
+          <div id="navbar" class="collapse navbar-collapse"> -->
+            < <ul class="nav navbar-nav">
+                <%data.forEach(function(value){
+                
+                %>
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <div class="file btn btn-lg btn-primary">
+                Upload
+                <input type="file" name="file"/>
+              </div>
+              ​<picture>
+                <source srcset="http://static.asiawebdirect.com/m/bangkok/portals/vietnam/homepage/pagePropertiesImage/vietnam.jpg.jpg" type="image/svg+xml" style="width:50%">
+                <img src="http://static.asiawebdirect.com/m/bangkok/portals/vietnam/homepage/pagePropertiesImage/vietnam.jpg.jpg" class="img-fluid img-thumbnail" alt="..." style="width:50%">
+              </picture>
+              <iframe 
+              src="https://vimeo.com/user90902092/review/296442883/459ba9ef89?api=1&amp;title=0&amp
+              ;byline=0&amp;portrail=0" videotype="vimeo" width="400" height="225" frameborder="0"
+              webkitAllowFullScreen allowfullscreen></iframe>
+              < <h3><%=value.name%></h3>
+            <%})%>
+            </ul>
+          </div> <!--.nav-collapse -->
+         </div> <!--/.container -->
+      </nav><!-- /.navbar
